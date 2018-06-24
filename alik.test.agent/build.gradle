@@ -22,6 +22,8 @@ mainClassName = 'AlikApp232'
 dependencies {
     // This dependency is found on compile classpath of this component and consumers.
     compile 'com.google.guava:guava:23.0'
+    compile group: 'org.apache.hadoop', name: 'hadoop-common', version: '3.1.0'
+//    compile group: 'org.apache.hadoop', name: 'hadoop-hdfs', version: '3.1.0'
 
     // Use JUnit test framework
     testCompile 'junit:junit:4.12'
